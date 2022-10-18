@@ -1,0 +1,44 @@
+body {
+    background-image: url(./../image/0101.jpg);
+    font-family: '標楷體';
+    padding: 10px;
+    text-align: center;
+}
+
+.top {
+    font-size: 18px;
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+td {
+    width: 200px;
+}
+
+a {
+    color: #0000FF;
+}
+
+a:hover {
+    color: coral;
+}
+
+.history {
+    font-size: 16px;
+    color: #FF0000;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.event{
+    text-align: left;
+}
+
+.learn{
+    margin-top: 20px;
+}
