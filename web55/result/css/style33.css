@@ -1,0 +1,58 @@
+.navigation {
+    box-sizing: border-box;
+    color: #FF0000;
+    font-weight: bolder;
+}
+
+.navigation>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+}
+
+.tab {
+    width: 100px;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+input {
+    display: none;
+}
+
+
+label {
+    width: 100px;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+}
+
+div {
+    order: 1;
+    width: 100%;
+    display: none;
+}
+
+/* + 要的是緊接在後的標籤 */
+input:checked+label+div {
+    display:flex;
+}
