@@ -1,0 +1,59 @@
+body {
+
+    background-image: url(./image/0101.jpg);
+    background-repeat: repeat;
+    font-family: '標楷體';
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.president {
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0000FF;
+    font-style: italic;
+}
+
+.top {
+    font-size: 18px;
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+td {
+    width: 200px;
+}
+
+.history{
+    font-size: 16px;
+    text-align: left;
+    color: #FF0000;
+}
+
+.event{
+    text-align: left;
+    font-size: 16px;
+}
+
+.learn{
+    margin-top: 20px;
+}
+
+a{
+    color: #0000FF;
+}
+
+a:hover{
+    color: orange;
+}
