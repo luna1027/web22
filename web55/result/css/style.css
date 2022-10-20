@@ -77,7 +77,6 @@ a:hover {
     background-color: #FFFFFF;
     font-size: 14px;
     color: #000000;
-    padding: 55px 20px ;
     margin:  auto;
 }
 
@@ -94,5 +93,6 @@ footer {
 
 iframe{
     width: 100%;
+    /* height: calc(768px - 90px - 25px - 45px); */
     height: 100%;
 }
