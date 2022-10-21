@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>msgboard</title>
     <link rel="stylesheet" href="./css/style33.css">
-</head>
-
+    <script src="ms.js"></script>
+    </head>
 <body>
     <marquee behavior="" direction="">
         謝謝蒞臨本網站，請給予我們支持、鼓勵與建言。
@@ -21,13 +21,13 @@
         </ul>
     </div>
     <form action="">
-        <table>
+        <table class="ms">
             <tr>
                 <td style="width:120px ;">
-                    <label for="name">姓名 </label>
+                    <label for="name">姓&emsp;&emsp;名 </label>
                 </td>
                 <td style="width:580px ;">
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" size="20">
                 </td>
             </tr>
             <tr>
@@ -35,15 +35,15 @@
                     <label for="email">電子郵件 </label>
                 </td>
                 <td>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" size="60">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label for="sex">性別 </label>
+                    <label for="sex">性&emsp;&emsp;別 </label>
                 </td>
                 <td>
-                    <input type="radio" id="man" name="sex">
+                    <input type="radio" id="man" name="sex" checked>
                     <label for="man">男</label>
                     <input type="radio" id="woman" name="sex">
                     <label for="woman">女 </label>
@@ -54,15 +54,24 @@
                     <label for="job">職業類別 </label>
                 </td>
                 <td>
-                    <select name="job" id="job"></select>
+                    <select name="job" id="job">
+                        <option value="0">-----------請選擇職業類別-----------</option>
+                        <option value="">現役軍人</option>
+                        <option value="">專業人員</option>
+                        <option value="">技術員及助理專業人員</option>
+                    </select>
                 </td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>
+                    <label for="subject">留言內容</label>
+                </td>
+                <td>
+                    <textarea name="subject" id="subject" cols="78" rows="10"></textarea>
+                </td>
             </tr>
             <tr>
-                <td></td>
+                <td><input type="submit" onclick="ms();"> &nbsp;<input type="reset"></td>
                 <td></td>
             </tr>
         </table>
